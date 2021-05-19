@@ -1,0 +1,21 @@
+1. Ejecutar el siguiente comando por consola preferiblemente Visual Studio: npm run dev
+	le dara un mensaje SERVER LISTEN ON PORT 4000
+ 
+2. Abrir la carpeta Postman en la aplocación (automaticamente le apareceran las carpetas internas dentro del aplicaivo: users,auth, projects
+
+3. PROJECTS 
+ 3.1 GET -> este metodo permite obtener los proyectos creados 
+ al darle click en enviar el automaticamente le desplegara una lista de proyectos de prueba
+	3.3.1 GET/PROJECT/:PROJECTID -> listar proyecto segun ID 
+ 3.2 POST -> este metodo le permite crear un nuevo proyecto (va uno por defecto)
+ 3.3 DEL/PROJECT/:PROJECTID-> le va a permitir eliminar un elemento segun su id 
+ 3.4 PUT/PROJECT/:PROJECTID -> le permite actualizar un elemento segun id 
+
+ 4. USERS
+
+	POST-> permite crear usuarios y darles sus roles, para hacerlo primero le pedira un token o el Rol de Admin 
+ 5. AUTH 
+	POST -> Autenticación de usuarios comprobando su rol, email y nombre de usuario 
+	POST -> Obtener Token de acuerdo a rol, Nombre de Usuario y email 
+	
+ 
